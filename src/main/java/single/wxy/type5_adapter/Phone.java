@@ -1,0 +1,18 @@
+package single.wxy.type5_adapter;
+
+/**
+ * @author wxy
+ * @date: 2023/5/20 4:01 PM
+ * @ClassName: Pnone
+ */
+public class Phone {
+
+    public void charging(IVoltage5V iVoltage5V) {
+        if(iVoltage5V.output5V() == 5) {
+            System.out.println("电压为5V, 可以充电~~");
+        } else if (iVoltage5V.output5V() > 5) {
+            System.out.println("电压大于5V, 不能充电~~");
+        }
+    }
+
+}

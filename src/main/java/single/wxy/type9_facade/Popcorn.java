@@ -1,0 +1,26 @@
+package single.wxy.type9_facade;
+
+/**
+ * @author wxy
+ * @date: 2023/5/20 9:25 PM
+ * @ClassName: Popcorn
+ */
+public class Popcorn {
+    private static Popcorn instance = new Popcorn();
+
+    public static Popcorn getInstance() {
+        return instance;
+    }
+
+    public void on() {
+        System.out.println(" popcorn on ");
+    }
+
+    public void off() {
+        System.out.println(" popcorn off ");
+    }
+
+    public void pop() {
+        System.out.println(" popcorn is poping ");
+    }
+}

@@ -1,4 +1,4 @@
-package single.wxy.type3_principle;
+package single.wxy.type3_prototype;
 
 /**
  * @author wxy
